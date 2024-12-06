@@ -2,8 +2,8 @@
 
 **Screenshot/Logo**:
 
+<img width="1052" alt="Screenshot 2024-12-06 at 15 37 19" src="https://media.git.generalassemb.ly/user/54083/files/cabb40f3-20f2-4e9a-a36f-fda06fd06c2f">
 
-![alt text](image-1.png)
 
 
 
