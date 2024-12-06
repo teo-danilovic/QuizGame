@@ -1,6 +1,11 @@
 # Quiz-Game
 
-**Screenshot/Logo**: A screenshot of your app or a logo.
+**Screenshot/Logo**:
+
+
+![alt text](image-1.png)
+
+
 
 **Your game’s name**: 
 
@@ -11,10 +16,9 @@ The reason I chose this game is because the log of it seemed the most clear to m
 
 
 **Getting started**: 
-Include a link to your deployed game and any instructions you deem important. This should also contain a link to your planning materials.
+Link to Deployed Game: https://pages.git.generalassemb.ly/teo-danilovic/quiz-game/. 
 
-
-**Attributions**: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. You can exclude this section if it does not apply to your application.
+Link to Planning Materials: https://www.notion.so/autogenai/1st-Project-15191820e73c80e6bce9f590d3edb023?pvs=4 
 
 **Technologies used**: 
 
@@ -24,4 +28,4 @@ JavaScript, HTML, CSS, etc.
 
 With more time i would add more themes, more questions, and more choices for answers. I would make it so that the score of each theme is stored and you can get a 'general knowledge' score which tells you how you did on ALL the themes. 
 
-I would add background images for each page and add dynamic effects on the pages 
+I would add background images for each page and add dynamic effects on the pages. 
