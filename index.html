@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Page 1: Opening Page -->
+    <div id="page1" class="page active">
+        <h1 class="title">🧠 QuizMaster! 🎲</h1>
+        <hr>
+        <p class="subtitle">Test the limits of your knowledge with these quizzes!</p>
+        <div class="button-container">
+            <button id="harryPotterQuiz" class="quiz-button">⚡️ Harry Potter Quiz ⚡️</button>
+            <button id="greekGodsQuiz" class="quiz-button">🧙 Greek Mythology Quiz 🧙</button>
+        </div>
+    </div>
+
+
+
+    <!-- Page 2: Harry Potter Quiz -->
+    <div id="page2" class="page">
+        <audio id="harryPotterAudio" src="https://ia801304.us.archive.org/10/items/HarryPotter-hedwigTheme/Harry_Potter_Theme_Song_Hedwigs_Theme.mp3" loop></audio>
+        <h1 class="quiz-title">⚡️Harry Potter Quiz⚡️</h1>
+        <form id="quizForm">
+            <ol id="questionList" class="question-list">
+                <li>
+                    What is the name of the magical map that shows the entire layout of Hogwarts?📜 <br>
+                    <label><input type="radio" name="q1" value="option1"> Marauder's Map</label><br>
+                    <label><input type="radio" name="q1" value="option2"> Mooney's Map</label>
+                </li>
+                <li>
+                    What kind of wood is Harry's first wand made of?🪄 <br>
+                    <label><input type="radio" name="q2" value="option1"> Willow</label><br>
+                    <label><input type="radio" name="q2" value="option2"> Holly</label>
+                </li>
+                <li>
+                    Who is the Slytherin Ghost?👻 <br>
+                    <label><input type="radio" name="q3" value="option1"> Nearly Headless Nick</label><br>
+                    <label><input type="radio" name="q3" value="option2"> The Bloody Baron</label>
+                </li>
+                <li>
+                    Where was Harry Potter Born?👶🏻 <br>
+                    <label><input type="radio" name="q4" value="option1"> Godrick's Hollow</label><br>
+                    <label><input type="radio" name="q4" value="option2"> The Leaky Cauldron</label>
+                </li>
+                <li>
+                    How old was the sorcerer's Stone creator Nicolas Flamel when he decided to destroy it?💎 <br>
+                    <label><input type="radio" name="q5" value="option1"> 576</label><br>
+                    <label><input type="radio" name="q5" value="option2"> 665</label>
+                </li>
+            </ol>
+            <button type="button" id="submitQuiz" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+
+    <!-- Page 3: Greek mythology Quiz -->
+    <div id="page3" class="page">
+        <audio id="greekMythologyAudio" src=" " loop></audio>
+        <h1 id="greekGodsTitle" class="quiz-title">🧙Greek Mythology Quiz🧙</h1>
+        <form id="quizFormGreek">
+            <!-- Reusing the same structure as Page 2 -->
+            <ol id="questionList" class="question-list">
+                <li>
+                    Which creature has the body of a lion, wings, and a human head?🦁🪽👦🏻 <br>
+                    <label><input type="radio" name="q1" value="option1"> Sphinx </label><br>
+                    <label><input type="radio" name="q1" value="option2"> Pegasus</label>
+                </li>
+                <li>
+                    Who is the first woman according to Greek mythology?👸🏻 <br>
+                    <label><input type="radio" name="q2" value="option1"> Eve </label><br>
+                    <label><input type="radio" name="q2" value="option2"> Pandora</label>
+                </li>
+                <li>
+                    Which is the Greek Goddess of the moon?🌙 <br>
+                    <label><input type="radio" name="q3" value="option1"> Selene </label><br>
+                    <label><input type="radio" name="q3" value="option2"> Hecate </label>
+                </li>
+                <li>
+                    "Oedipus Rex" was a work by which Greek Playwright?📜 <br>
+                    <label><input type="radio" name="q4" value="option1"> Eos </label><br>
+                    <label><input type="radio" name="q4" value="option2"> Sophocles </label>
+                </li>
+                <li>
+                    The diet of what mythical monster periodically included seven youths and seven maidens?🧌 <br>
+                    <label><input type="radio" name="q5" value="option1"> The Minotaur's </label><br>
+                    <label><input type="radio" name="q5" value="option2"> Centaurs </label>
+                </li>
+            </ol>
+            <button type="button" id="submitQuizGreek" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <!-- Page 4: Results -->
+    <div id="page4" class="page">
+        <h1 class="quiz-title">Results</h1>
+        <div id="resultsBox" class="results-box">Your results will appear here.</div>
+        <div class="button-container">
+            <button id="playAgain" class="quiz-button">Play Again</button>
+            <button id="backHome" class="quiz-button">Back to Home</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
+
+
