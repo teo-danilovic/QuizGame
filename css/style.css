@@ -1,10 +1,6 @@
-/* General Styles */
 .page {
     display: none;
-    /* Hide all pages by default */
 }
-
-
 
 body {
     font-family: Baskerville, serif;
@@ -46,7 +42,6 @@ hr {
     border: 1px solid black;
 }
 
-/* Button Styles */
 .quiz-button {
     background-color: #add8e6;
     color: black;
@@ -63,7 +58,6 @@ hr {
     background-color: #87ceeb;
 }
 
-/* Quiz Page Styles */
 .quiz-title {
     font-size: 2rem;
     color: black;
@@ -84,7 +78,8 @@ hr {
 }
 
 .submit-button {
-    background-color: #ad47c0;;
+    background-color: #ad47c0;
+    ;
     color: white;
     border: none;
     border-radius: 10px;
@@ -97,7 +92,6 @@ hr {
     background-color: #e692f5;
 }
 
-/* Results Page Styles */
 .results-box {
     background-color: white;
     color: black;

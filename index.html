@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <!-- Page 1: Opening Page -->
     <div id="page1" class="page active">
         <h1 class="title">🧠 QuizMaster! 🎲</h1>
         <hr>
@@ -22,9 +21,10 @@
 
 
 
-    <!-- Page 2: Harry Potter Quiz -->
     <div id="page2" class="page">
-        <audio id="harryPotterAudio" src="https://ia801304.us.archive.org/10/items/HarryPotter-hedwigTheme/Harry_Potter_Theme_Song_Hedwigs_Theme.mp3" loop></audio>
+        <audio id="harryPotterAudio"
+            src="https://ia801304.us.archive.org/10/items/HarryPotter-hedwigTheme/Harry_Potter_Theme_Song_Hedwigs_Theme.mp3"
+            loop></audio>
         <h1 class="quiz-title">⚡️Harry Potter Quiz⚡️</h1>
         <form id="quizForm">
             <ol id="questionList" class="question-list">
@@ -59,12 +59,10 @@
     </div>
 
 
-    <!-- Page 3: Greek mythology Quiz -->
     <div id="page3" class="page">
         <audio id="greekMythologyAudio" src="./greek.mp3" loop></audio>
         <h1 id="greekGodsTitle" class="quiz-title">🧙Greek Mythology Quiz🧙</h1>
         <form id="quizFormGreek">
-            <!-- Reusing the same structure as Page 2 -->
             <ol id="questionList" class="question-list">
                 <li>
                     Which creature has the body of a lion, wings, and a human head?🦁🪽👦🏻 <br>
@@ -96,7 +94,6 @@
         </form>
     </div>
 
-    <!-- Page 4: Results -->
     <div id="page4" class="page">
         <h1 class="quiz-title">Results</h1>
         <div id="resultsBox" class="results-box">Your results will appear here.</div>
@@ -109,5 +106,3 @@
 </body>
 
 </html>
-
-
