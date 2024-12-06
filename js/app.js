@@ -251,7 +251,7 @@ function showPage(pageId) {
     }
     
     if (pageId === "page1") {
-        greekMythologyAudioAudio.pause();
+        greekMythologyAudio.pause();
     }
     if (pageId === "page4") {
         greekMythologyAudio.pause();
