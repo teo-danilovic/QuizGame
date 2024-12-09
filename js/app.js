@@ -44,13 +44,13 @@ document.addEventListener("click", (e) => {
     console.log(target.id)
 });
 
-
-currentQuiz = null;
-selectedAnswers = [];
-score = 0;
-quizInProgress = false;
-showPage("page1");
-
+function init() {
+    currentQuiz = null;
+    selectedAnswers = [];
+    score = 0;
+    quizInProgress = false;
+    showPage("page1");
+}
 
 
 function renderQuiz() {
