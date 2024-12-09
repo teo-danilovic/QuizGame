@@ -14,6 +14,8 @@ My game is called 'QuizMaster!' and it is a question and answer style game, with
 
 The reason I chose this game is because the logic of it seemed the most clear to me at this stage, and I chose the themes because I am a huge Harry Potter Fan and also love Greek Mythology! 
 
+P.S. Make sure your sound is turned up as both themes have some background music!
+
 
 **Getting started**: 
 
