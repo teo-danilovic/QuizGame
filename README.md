@@ -2,7 +2,7 @@
 
 **Screenshot/Logo**:
 
-<img width="1052" alt="Screenshot 2024-12-06 at 15 37 19" src="https://media.git.generalassemb.ly/user/54083/files/cabb40f3-20f2-4e9a-a36f-fda06fd06c2f">
+![image](https://github.com/user-attachments/assets/5dbed550-41a0-4a75-a86e-7ae901329d5e)
 
 
 
